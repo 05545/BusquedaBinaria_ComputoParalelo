@@ -15,7 +15,6 @@ Este repositorio contiene una implementación de algoritmos de búsqueda binaria
 - [Descripción](#-descripción)
 - [Características](#-características)
 - [Estructura del código](#-estructura-del-código)
-- [Algoritmos implementados](#-algoritmos-implementados)
 - [Resultados de pruebas](#-resultados-de-pruebas)
 - [Análisis de rendimiento](#-análisis-de-rendimiento)
 - [Instrucciones de uso](#-instrucciones-de-uso)
@@ -50,43 +49,6 @@ Las implementaciones están diseñadas para aprovechar múltiples núcleos de pr
 | `test_generator.py` | Generador de datos y casos de prueba |
 | `performance.py` | Medición de rendimiento y colección de estadísticas |
 | `visualization.py` | Generación de gráficos y visualizaciones |
-
-## 🔍 Algoritmos implementados
-
-### Búsqueda Binaria Secuencial
-Implementación clásica del algoritmo de búsqueda binaria que opera en un único hilo de ejecución. Sirve como línea base para comparar las mejoras de rendimiento.
-
-```python
-def binary_search_sequential(array, target):
-    """
-    Implementación secuencial estándar de búsqueda binaria
-    """
-    # Código de la implementación
-```
-
-### Búsqueda Binaria Paralela Básica
-Divide el arreglo en segmentos y asigna cada segmento a un proceso diferente para realizar búsquedas binarias de forma paralela.
-
-```python
-def binary_search_parallel_basic(array, target, num_processes):
-    """
-    Implementación básica de búsqueda binaria paralela
-    Divide el arreglo en segmentos iguales y busca en cada uno
-    """
-    # Código de la implementación
-```
-
-### Búsqueda Binaria Paralela Avanzada
-Implementación optimizada que utiliza técnicas avanzadas como distribución dinámica de trabajo, localidad de caché y estrategias de división más sofisticadas.
-
-```python
-def binary_search_parallel_advanced(array, target, num_processes):
-    """
-    Implementación avanzada de búsqueda binaria paralela
-    Utiliza estrategias optimizadas de paralelización
-    """
-    # Código de la implementación
-```
 
 ## 📊 Resultados de pruebas
 
